@@ -30,7 +30,7 @@ Formulaire de contact permettant aux visiteurs de prendre contact avec Nina Card
 
 ## Comment exécuter le projet localement
 1. Ouvrir un terminal : entrer cd desktop
-2. Clonez le repository : entrer git clone git clone https://github.com/UdotBdot/UdotBdot-Openclassrooms_P9_NinaCarducci
+2. Clonez le repository : entrer git clone git clone [https://weeskin.github.io/P9_-_Optimisez_le-referencement_d_un_site_de_photographe/]
 3. Ouvrez le fichier index.html dans votre navigateur pour visualiser le portfolio localement.
 
 > [!TIP]
