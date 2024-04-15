@@ -33,6 +33,6 @@ Formulaire de contact permettant aux visiteurs de prendre contact avec Nina Card
 2. Clonez le repository : entrer git clone git clone https://github.com/UdotBdot/UdotBdot-Openclassrooms_P9_NinaCarducci
 3. Ouvrez le fichier index.html dans votre navigateur pour visualiser le portfolio localement.
 
-> [!CAUTION]
+> [!TIP]
 Comment voir le rendu hébergé
 suivez ce lien github pages https://udotbdot.github.io/UdotBdot-Openclassrooms_P9_NinaCarducci/
