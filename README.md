@@ -35,4 +35,4 @@ Formulaire de contact permettant aux visiteurs de prendre contact avec Nina Card
 
 > [!TIP]
 Comment voir le rendu hébergé
-suivez ce lien github pages https://udotbdot.github.io/UdotBdot-Openclassrooms_P9_NinaCarducci/
+suivez ce lien github pages (https://weeskin.github.io/P9_-_Optimisez_le-referencement_d_un_site_de_photographe/)
