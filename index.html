@@ -2,18 +2,33 @@
 <html lang="fr">
 
 <head>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	c
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="UTF-8" />
+
+	<!-- Precloads First Image - Desk & Mobile -->
+	<link rel="preload" as="image" href="./assets/images/slider/ryoji-iwata-professional.webp" />
+	<link rel="preload" as="image" href="./assets/images/slider/ryoji-iwata-professional-mobile.webp" />
+
+	<!-- Styles -->
+	<link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style"
+		onload="this.onload=null;this.rel='stylesheet'" />
+	<link rel="stylesheet" href="./assets/style.min.css" />
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link rel="preload"
+		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+		as="style" onload="this.onload=null;this.rel='stylesheet'" />
+
+	<!-- Canonical -->
+
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style-min.css">
 	<link rel="canonical" href="https://weeskin.github.io/P9_-_Optimisez_le-referencement_d_un_site_de_photographe/" />
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 
-
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	<!-- Ajout de la balise meta viewport -->
 	<title>Nina Carducci - Photographe professionnelle Bordeaux et Nouvelle-Aquitaine</title>
 	<meta name="description"
 		content="Découvrez le portfolio de Nina Carducci, photographe professionnelle basée à Bordeaux et disponible en Nouvelle-Aquitaine pour vos shootings photo de mariage, concerts, événements et bien plus. Contactez-moi pour capturer vos moments précieux !">
@@ -47,24 +62,34 @@
 	<!-- Donnée Structurée pour le référencement local Schéma.org-->
 	<script type="application/ld+json">
 		{
-			"@context": "https://schema.org",
-			"@type": "ProfessionalService",
-			"name": "Nina Carducci",
-			"description": "Photographe professionnelle Bordeaux et Nouvelle-Aquitaine, Mariage, Concert, Shooting",
-			"image": "./assets/images/nina.webp",
-			"priceRange": "$$",
-			"url": "https://weeskin.github.io/P9_-_Optimisez_le-referencement_d_un_site_de_photographe/",
-			"image": "https://weeskin.github.io/P9_-_Optimisez_le-referencement_d_un_site_de_photographe/assets/images/nina.webp",
-			"telephone": "05 56 67 78 89",
-			"openingHours": "Mo-Fr 09:00-12:00",
-			"address": {
-				"@type": "PostalAddress",
-				"streetAddress": "68 avenue Alsace-Lorraine",
-				"addressLocality": "Bordeaux",
-				"postalCode": "33200",
-				"addressRegion": "Nouvelle Aquitaine",
-				"addressCountry": "FR"
-			},
+		"@context": "https://schema.org",
+		"@type": "ProfessionalService",
+		"name": "Nina Carducci",
+		"image": "https://cris0338.github.io/P9-NinaCarducci/assets/images/url_img.webp",
+		"@id": "",
+		"url": "https://cris0338.github.io/P9-NinaCarducci/",
+		"telephone": "+33 5 56 67 78 89",
+		"priceRange": "$$",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressRegion": "Nouvelle-Aquitaine",
+			"addressCountry": "FR"
+		},
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": 44.8465743,
+			"longitude": -0.6065364999999999
+		},
+		"openingHoursSpecification": {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+			"opens": "10:00:00+01:00",
+			"closes": "19:00:00+01:00"
+		},
+		"sameAs": "https://www.instagram.com/ninacarducci.photo/?hl=fr"
 		}
 	</script>
 </head>
