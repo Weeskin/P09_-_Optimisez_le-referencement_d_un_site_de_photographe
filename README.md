@@ -28,6 +28,9 @@ Formulaire de contact permettant aux visiteurs de prendre contact avec Nina Card
 ## Le site avant intervention
 * suivez ce lien https://nina-carducci.github.io/
 
+## Le site après intervention
+* suivez ce lien https://weeskin.github.io/P9_-_Optimisez_le-referencement_d_un_site_de_photographe/
+
 ## Comment exécuter le projet localement
 1. Ouvrir un terminal : entrer cd desktop
 2. Clonez le repository : entrer git clone git clone [https://weeskin.github.io/P9_-_Optimisez_le-referencement_d_un_site_de_photographe/]
