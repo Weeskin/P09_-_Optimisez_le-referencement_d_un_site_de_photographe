@@ -1,0 +1,33 @@
+PRÉSENTATION SOUTENANCE
+
+
+1/ Les différents pages 
+Pages > index 
+- changements "last" en data pur obtenir les données
+- last fait le trie sur les dates du plus récent au plus ancien et commence au début du tableau
+- ajout d'id pour implémenter un ancre pour la nav
+
+
+2/ Partir des containers
+
+Events > // ajout de filter dans la boucle ternaire :
+
+Events > eventCard >
+		
+- Suppression des chemins de fichiers dans imageSrc et title
+- Changement au niveau du formulaire (message de succès)
+- Changement des dates avec +1 pour indexer au bon numéro
+
+Events > modification de "Pagination"
+
+- Modification de clé "n" car cela m'indiquait un message d'erreur "Don not use Array index in keys", pour "duper" react en assigant un autre valeur d'index.
+ 
+
+Slider > nextCard >
+problème avec les chiffres
+
+Slider > div vide
+Slider
+> clé
+
+
